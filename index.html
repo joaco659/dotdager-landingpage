@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing</title>
+  </head>
+  <body>
+    <!-- Puto el que me inspecciona la pagina. -->
+    <!-- Y ya que estas, clickea los 3 pepinos en la pagina para ver algo copado. -->
+    <div id="app" class="font-Barlow">
+      <header
+        class="fixed top-0 flex justify-between bg-[#4f4b91] text-white w-full min-h-[4em] items-center"
+      >
+        <h1 class="ml-10 font-semibold text-3xl">Dot Dager</h1>
+        <nav class="mr-10">
+          <ul class="flex justify-between text-lg font-semibold font-normal">
+            <li class="mx-6 hover:underline">
+              <a href="#about-me">About me</a>
+            </li>
+            <li class="mx-6 hover:underline">
+              <a href="#my-interests">Interests</a>
+            </li>
+            <li class="ml-6 hover:underline">
+              <a href="#social-media">Social media</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div
+        class="flex items-center justify-center bg-[url('./public/dager-escritorio.png')] bg-black bg-blend-overlay bg-opacity-60 bg-center bg-cover bg-no-repeat text-white min-h-[35em] mt-[4em] font-Barlow"
+      >
+        <div class="basis-2/5 mr-8">
+          <h2 class="text-4xl">
+            Hello, Im
+            <span class="text-red-400 [text-shadow:1px_1px_0px_#9d001b]"
+              >Dager</span
+            >
+          </h2>
+          <span class="decoration-4 decoration-[#a4757d] underline"
+            >Full-stack senior and expert teller of horrible jokes.</span
+          >
+          <p class="text-xl pt-4">
+            A programming content creator with a love for philosophy, playing
+            guitar, cats, and last but not least,
+            <span class="text-lime-100">pickles</span>
+            <b class="pepino cursor-help">🥒</b>
+          </p>
+        </div>
+        <img
+          class="basis-1/4 max-h-80 shadow-2xl rounded-lg"
+          src="./dager-logo.png"
+          load="lazy"
+          alt="Dot Dager"
+          title="Sexy hasta con IA."
+        />
+      </div>
+
+      <div
+        id="about-me"
+        class="flex flex-col items-center text-white bg-[#161418] py-12 pb-24"
+      >
+        <h3 class="text-3xl decoration-4 decoration-[#4f4b91] underline pb-12">
+          About me
+        </h3>
+        <div class="flex flex-wrap justify-evenly items-center">
+          <img
+            src="./dager-gluglu.jpg"
+            class="max-h-96 max-w-96 rounded-lg basis-1/3"
+            alt="Foto de dager"
+            title="Definitivamente, esta tomando leche."
+          />
+          <div class="basis-2/5">
+            <b
+              class="text-3xl font-normal decoration-2 decoration-[#b4757d] underline"
+              >Mariano Villa
+              <span class="text-lg font-extralight">alias. Dot Dager</span></b
+            >
+            <p class="mt-4 text-xl font-light">
+              When I'm not coding, you' ll probably find me playing guitar,
+              reflecting on philosophy, hanging out with my cats, or enjoying
+              some good juicy <span class="text-lime-100">pickles</span>
+              <b class="pepino cursor-help">🥒</b>. I like to combine my
+              passions in unexpected ways and am always looking for new ways to
+              express myself and learn.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="my-interests"
+        class="flex flex-col px-24 items-center text-white bg-[url('./public/dager-setup.png')] bg-black bg-blend-overlay bg-opacity-60 bg-center bg-cover bg-no-repeat py-12"
+      >
+        <h4 class="text-3xl decoration-4 decoration-[#4f4b91] underline pb-12">
+          My interests
+        </h4>
+        <!--  -->
+        <div class="card bg-[url('./public/dager-code.jpg')] self-start mb-24">
+          <b class="text-2xl pb-4">Programming</b>
+          <p class="text-lg">
+            The art of turning ideas into functional code. I love solving
+            problems and creating useful tools through programming languages.
+          </p>
+        </div>
+        <!--  -->
+        <div class="card bg-[url('./public/dager-filosofo.png')] self-end mb-24">
+          <b class="text-2xl pb-4">Philosophy</b>
+          <p class="text-lg">
+            I'm fascinated by exploring humanity's big questions and
+            understanding different ways of viewing the world, always
+            questioning what we consider to be the truth.
+          </p>
+        </div>
+        <!--  -->
+        <div class="card bg-[url('./public/dager-musico.jpg')] self-start mb-24">
+          <b class="text-2xl pb-4">Guitars and music</b>
+          <p class="text-lg">
+            Music is a unique way of expressing myself, and through my guitar, I
+            can convey emotions and create melodies that connect with how I
+            feel. You can hear me out at
+            <a
+              href="https://open.spotify.com/intl-es/artist/6bkClBMJd4qKxJp0J5vHsz?si=mbfNHqvBT9SKSQ-ZNhXHJg&nd=1"
+              target="_blank"
+              class="transition-all hover:text-lime-400"
+              ><i class="fa-brands fa-spotify"></i> Spotify</a
+            >
+          </p>
+        </div>
+        <!--  -->
+        <div class="card bg-[url('./public/dager-gatito.jpg')] self-end mb-24">
+          <b class="text-2xl pb-4">Cats</b>
+          <p class="text-lg">
+            My feline companions are a great source of inspiration and calm.
+            Their presence improves my days, and their behavior teaches me
+            patience and affection.
+          </p>
+        </div>
+        <!--  -->
+        <div class="card bg-[url('./public/dager-pepino.png')] self-start">
+          <b class="text-2xl pb-4"
+            ><span class="text-lime-100">Pickles</span>
+            <b class="pepino cursor-help">🥒</b></b
+          >
+          <p class="text-lg">
+            I love these delightful green friends because they come in all
+            sizes, small, large, and they help satisfy my obsession with them.
+          </p>
+        </div>
+      </div>
+
+      <div
+        id="social-media"
+        class="flex flex-col items-center text-white bg-[#161418] py-12 pb-24"
+      >
+        <h3 class="text-3xl decoration-4 decoration-[#4f4b91] underline pb-12">
+          My social media
+        </h3>
+        <div class="flex flex-row flex-wrap w-full justify-evenly items-center">
+          <div class="basis-1/5">
+            <b
+              class="text-3xl font-normal decoration-2 decoration-[#b4757d] underline"
+              >Reach out to me
+            </b>
+            <ul class="my-4 text-xl font-light flex">
+              <li class="">
+                <a
+                  href="https://www.instagram.com/dager.32/"
+                  target="_blank"
+                  class="social-link group"
+                  ><i class="fa-brands fa-instagram link-logo"></i
+                ></a>
+              </li>
+              <li class="mx-6">
+                <a
+                  href="https://github.com/MarianoVilla"
+                  target="_blank"
+                  class="social-link group"
+                  ><i class="fa-brands fa-github link-logo"></i
+                ></a>
+              </li>
+              <li class="">
+                <a
+                  href="https://discord.com/invite/4NFk6TamAB"
+                  target="_blank"
+                  class="social-link group"
+                  ><i class="fa-brands fa-discord link-logo"></i
+                ></a>
+              </li>
+            </ul>
+            <b
+              class="text-3xl font-normal decoration-2 decoration-[#b4757d] underline"
+              >Enjoy my media
+            </b>
+            <ul class="mt-4 text-xl font-light flex">
+              <li class="">
+                <a
+                  href="https://www.youtube.com/@DotDager"
+                  target="_blank"
+                  class="social-link group"
+                  ><i class="fa-brands fa-youtube link-logo"></i
+                ></a>
+              </li>
+              <li class="mx-6">
+                <a
+                  href="https://open.spotify.com/intl-es/artist/6bkClBMJd4qKxJp0J5vHsz?si=mbfNHqvBT9SKSQ-ZNhXHJg&nd=1"
+                  target="_blank"
+                  class="social-link group"
+                  ><i class="fa-brands fa-spotify link-logo"></i
+                ></a>
+              </li>
+              <li class="">
+                <a
+                  href="https://www.twitch.tv/dagerxiv"
+                  target="_blank"
+                  class="social-link group"
+                  ><i class="fa-brands fa-twitch link-logo"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <img
+            src="./dager-sexy.jpg"
+            class="max-h-96 max-w-96 rounded-lg basis-2/5"
+            alt="Foto de dager mirandote"
+            title="Dale no te hagas el boludo, entra a los links."
+          />
+        </div>
+
+        <div
+          id="easter"
+          class="bg-[#161418] flex flex-col justify-center items-center text-white py-12"
+        ></div>
+      </div>
+      <!-- <iframe title="Lumber Jack Game" src="https://tbot.xyz/lumber/" width="600" height="1200"></iframe> -->
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
